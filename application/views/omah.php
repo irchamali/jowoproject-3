@@ -15,6 +15,7 @@
     <link rel="shortcut icon" href="<?= base_url('theme/images/' . $icon); ?>">
     <link rel="stylesheet" href="<?= base_url('theme/css/bootstrap.min.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('omah/css/style.css'); ?>">
+
     <!-- SEO Tag -->
     <meta name="description" content="<?php echo $site_desc; ?>" />
     <link rel="canonical" href="<?php echo site_url(); ?>" />
@@ -56,7 +57,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Jowo<span>Kode</span></a></div>
+            <div class="logo"><a href="#"><img src="<?= base_url('theme/images/logoPutih1.png'); ?>" width="145" height="40" alt=""></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -76,11 +77,11 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hallo, Dulur-dulur</div>
+                <div class="text-1">Assalamualaikum</div>
                 <div class="text-2"><span class="typing"></span></div>
-                <div class="text-3">Jowo<span>Kode</span> present</div>
+                <div class="text-3">Darul<span>Abror</span> Media</div>
                 <!-- <div class="text-1">Irham | Founder</div> -->
-                <a href="https://api.whatsapp.com/send?phone=6285708497317">Hire me</a>
+                <a href="https://api.whatsapp.com/send?phone=6285708497317">JOIN US</a>
             </div>
         </div>
     </section>
@@ -301,7 +302,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://www.jowokode.com">JowoKode</a> | <span class="fa fa-copyright"></span> 2020</span>
+        <span>Darul Abror Cyber | <span class="fa fa-copyright"></span> <a href="https://www.jowokode.com">JowoKode</a> 2020</span>
     </footer>
 
     <script src="<?= base_url('theme/js/bootstrap.min.js') ?>"></script>

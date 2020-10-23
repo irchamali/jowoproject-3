@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background:  #111;
+    background:  #02812a;
 }
 .navbar .max-width{
     display: flex;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("../images/banner2.jpg") no-repeat center;
+    background: url("../images/banner-ponpesda.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -211,7 +211,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "JowoKode.com";
+    content: "Sejarah";
 }
 .about .about-content .left{
     width: 45%;
@@ -536,7 +536,7 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #111;
+    background: #02812a;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -583,7 +583,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #02812a;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;

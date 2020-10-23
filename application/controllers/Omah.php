@@ -41,9 +41,8 @@ class Omah extends CI_Controller
         $v['logo'] =  $site_info->site_logo_header;
         $data['icon'] = $site_info->site_favicon;
 
-        // $data['header'] = $this->load->view('head', $v, TRUE);
+        // $data['header'] = $this->load->view('header', $v, TRUE);
         // $data['footer'] = $this->load->view('footer', '', TRUE);
-
         $this->load->view('omah', $data);
     }
 }

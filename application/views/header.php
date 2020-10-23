@@ -3,8 +3,8 @@
 					<div class="full-wrapper relative clearfix">
 						<!-- Logo -->
 						<div class="header-logo-wrap">
-							<a href="<?php echo site_url(); ?>" class="logo">
-								<img src="<?php echo base_url() . 'theme/images/' . $logo; ?>" width="145" height="40" alt="" />
+							<a href="<?php echo site_url(); ?>">
+								<img src="<?= base_url() . 'theme/images/' . $logo; ?>" width="145" height="40" alt="" />
 							</a>
 						</div>
 						<!-- Mobile nav bars -->
@@ -16,7 +16,6 @@
 						<!-- Main Menu -->
 						<div class="nav-wrapper large-nav">
 							<ul class="clearlist local-scroll">
-
 								<!-- Multiple column menu example -->
 								<?php
 								$query = $this->db->get_where('tbl_navbar', array('navbar_parent_id' => 0));

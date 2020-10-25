@@ -42,7 +42,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Personal Blog", "Landing Page", "Portfolio", "Bussiness web", "company profile"],
+        strings: ["Pondok Pesantren Darul Abror", "Sukorejo Banyuwangi Indonesia"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-3", {
+        strings: ["Santriwan", "Santri wati"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

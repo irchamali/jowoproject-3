@@ -60,11 +60,11 @@
             <div class="logo"><a href="#"><img src="<?= base_url('theme/images/logoPutih1.png'); ?>" width="145" height="40" alt=""></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Project</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#about" class="menu-btn">Profil</a></li>
+                <li><a href="#services" class="menu-btn">Galeri</a></li>
+                <li><a href="#skills" class="menu-btn">Informasi</a></li>
+                <li><a href="#teams" class="menu-btn">Pengurus</a></li>
+                <li><a href="#contact" class="menu-btn">Kontak</a></li>
                 <li><a href="javascript:void(0)" class="btn-search"><span class="fa fa-search"></span></a></li>
             </ul>
             <div class="menu-btn">
@@ -79,9 +79,9 @@
             <div class="home-content">
                 <div class="text-1">Assalamualaikum</div>
                 <div class="text-2"><span class="typing"></span></div>
-                <div class="text-3">Darul<span>Abror</span> Media</div>
+                <div class="text-3">Silahkan Mendaftar <span class="typing-3"></span></div>
                 <!-- <div class="text-1">Irham | Founder</div> -->
-                <a href="https://api.whatsapp.com/send?phone=6285708497317">JOIN US</a>
+                <a href="https://api.whatsapp.com/send?phone=6285708497317">DAFTAR</a>
             </div>
         </div>
     </section>
@@ -90,15 +90,15 @@
     <!-- about section start -->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About</h2>
+            <h2 class="title">Profil</h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
                 </div>
                 <div class="column right">
-                    <div class="text">Mau dibuatkan <span class="typing-2"></span>?</div>
-                    <p><?php echo $about_desc; ?></p>
-                    <a href="<?= base_url('omah/CV_IrchamAli.pdf'); ?>">Download CV</a>
+                    <div class="text"><span class="typing-2"></span></div>
+                    <p><?= substr($about_desc, 0, 980); ?></p>
+                    <a href="<?= base_url('/about'); ?>">Read More</a>
                 </div>
             </div>
         </div>
@@ -107,18 +107,20 @@
     <!-- services section start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Our services</h2>
+            <h2 class="title">Galeri Foto</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fa fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
+                        <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
+                        <!-- <i class="fa fa-paint-brush"></i> -->
+                        <div class="text">Logo</div>
                         <!-- <p>Web Desain adalah istilah yang sering digunakan untuk menggambarkan bagaimana tampilan isi suatu website atau situs. Web yang kami bangun kami sesuaikan dengan kaidah dan kebutuhan customer secara personal maupun instansi.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fa fa-chart-line"></i>
+                        <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
+                        <!-- <i class="fa fa-chart-line"></i> -->
                         <!-- <i class="fa fa-code"></i> -->
                         <div class="text">Advertising</div>
                         <!-- <p>Advertising adalah salah satu bentuk komunikasi komersil maupun non komersil dengan tujuan agar khalayak memahami, mengikuti, atau mengambil tindakan tertentu. Web dikembangkan atas dasar interaksi sosial melalui sarana media website.</p> -->
@@ -126,12 +128,16 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fa fa-code"></i>
+                        <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
+                        <!-- <i class="fa fa-code"></i> -->
                         <div class="text">Graphical Design</div>
                         <!-- <p>Desain Grafis adalah proses komunikasi menggunakan elemen visual yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan. Web yang dibuat tentu akan memperhatikan kesesuaian dan estetika yg disuguhkan.</p> -->
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center">
+            <a href="<?= base_url('/about'); ?>">Read More</a>
         </div>
         </div>
     </section>
@@ -139,49 +145,17 @@
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">Skills</h2>
+            <h2 class="title">Informasi</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">Our creative skills & experiences.</div>
+                    <div class="text">Berita satu.</div>
                     <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p>
                     <a href="#">Read more</a>
                 </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
+                <div class="column left">
+                    <div class="text">Berita 2.</div>
+                    <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p>
+                    <a href="#">Read more</a>
                 </div>
             </div>
         </div>
@@ -190,7 +164,7 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">Project</h2>
+            <h2 class="title">Pengurus</h2>
             <div class="carousel owl-carousel">
                 <?php foreach ($testimonial->result() as $test) : ?>
                     <div class="card">
@@ -211,51 +185,51 @@
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">Kontak</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Ayo dulur, kalo kalian tertarik untuk mengembangkan web atau mau tanya-tanya dulu. Langsung wae hubungi lewat medsos iki utawa form message!</p>
+                    <div class="text">Kunjungi kami di:</div>
+                    <!-- <p>Lokasi dan media sosial resmi kami:</p> -->
                     <div class="icons">
+                        <div class="row">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Sukorejo, Bangorejo, Banyuwangi, Jawa Timur, Indonesia</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">emailponpes@gmail.com</div>
+                            </div>
+                        </div>
                         <div class="row">
                             <i class="fa fa-instagram"></i>
                             <div class="info">
                                 <div class="head">Instagram</div>
-                                <div class="sub-title">instagram.com/bro_irham</div>
+                                <div class="sub-title">instagram.com/ponpesdarulabror</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fa fa-twitter"></i>
                             <div class="info">
                                 <div class="head">Twitter</div>
-                                <div class="sub-title">twitter.com/bro_irham</div>
+                                <div class="sub-title">twitter.com/ponpesdarulabror</div>
                             </div>
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <i class="fa fa-youtube"></i>
                             <div class="info">
                                 <div class="head">Youtube</div>
                                 <div class="sub-title">Ircham Ali</div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <i class="fa fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email ku</div>
-                                <div class="sub-title">id.irchamali@gmail.com</div>
-                            </div>
-                        </div>
-                        <!-- <div class="row">
-                            <i class="fa fa-map-marker"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Jombang, East Java, Indonesia</div>
-                            </div>
                         </div> -->
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Message me</div>
+                    <div class="text">Kirim pesan ke kami</div>
                     <?php echo $this->session->flashdata('msg'); ?>
                     <form method="post" action="<?php echo site_url('contact/send'); ?>" role="form" class="form">
                         <div class="fields">
@@ -274,7 +248,7 @@
                             <textarea name="message" class="full_width" rows="6" placeholder="Tulis pesan.. *" maxlength="400" required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Send message</button>
+                            <button type="submit">Kirim</button>
                         </div>
                     </form>
                 </div>

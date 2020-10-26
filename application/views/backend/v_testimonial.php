@@ -329,7 +329,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Add Testimonial</h4>
+                        <h4 class="modal-title" id="myModalLabel">Add Teams</h4>
                     </div>
                     <div class="modal-body">
 
@@ -341,10 +341,10 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="form-group">
-                                    <input type="text" name="nama" class="form-control" placeholder="Name" required>
+                                    <input type="text" name="nama" class="form-control" placeholder="Nama lengkap" required>
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="content" class="form-control" rows="6" placeholder="Content" required></textarea>
+                                    <textarea name="content" class="form-control" rows="6" placeholder="Jabatan" required></textarea>
                                 </div>
 
                             </div>
@@ -370,7 +370,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Edit Testimonial</h4>
+                            <h4 class="modal-title" id="myModalLabel">Edit Teams</h4>
                         </div>
                         <div class="modal-body">
 
@@ -456,7 +456,7 @@
             $('.dropify').dropify({
                 defaultFile: '',
                 messages: {
-                    default: 'Drag atau drop untuk memilih Photo',
+                    default: 'Drag atau drop untuk memilih Photo (wajib ukuran 100x200px)',
                     replace: 'Ganti',
                     remove: 'Hapus',
                     error: 'error'

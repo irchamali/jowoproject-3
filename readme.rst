@@ -1,8 +1,8 @@
 ###################
-What is JowoKode
+Sistem Informasi Pondok Pesantren Darul Abror
 ###################
 
-JowoKode.com is an Application Websites for sharing and publishing more experiences.
+Aplikasi berbasis web yang mulai didevelop oleh JowoKode pada 23 Oktober 2020.
 
 *******************
 For Your Information

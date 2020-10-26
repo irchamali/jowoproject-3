@@ -151,16 +151,18 @@
         <div class="max-width">
             <h2 class="title">Informasi</h2>
             <div class="skills-content">
-                <div class="column left">
-                    <div class="text">Berita satu.</div>
-                    <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p>
-                    <!-- <a href="#">Read more</a> -->
-                </div>
-                <div class="column left">
+                <?php foreach ($latest_post->result() as $row) : ?>
+                    <div class="column left">
+                        <div class="text"><?php echo $row->post_title; ?></div>
+                        <p><?php echo $row->post_description; ?></p>
+                        <!-- <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p> -->
+                        <!-- <a href="#">Read more</a> -->
+                    </div>
+                <?php endforeach; ?>
+                <!-- <div class="column left">
                     <div class="text">Berita 2.</div>
                     <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p>
-
-                </div>
+                </div> -->
             </div>
             <div class="text-center">
                 <a href="<?= base_url('/blog'); ?>">Read More</a>
@@ -215,7 +217,7 @@
                         <div class="row">
                             <i class="fa fa-whatsapp"></i>
                             <div class="info">
-                                <div class="head">Whatsapp</div>
+                                <div class="head">Telephone or Whatsapp</div>
                                 <div class="sub-title">081236868776/085399877328</div>
                             </div>
                         </div>

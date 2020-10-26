@@ -78,7 +78,7 @@ class Testimonial extends CI_Controller
 				$config['source_image'] = './assets/images/' . $gbr['file_name'];
 				$config['create_thumb'] = FALSE;
 				$config['maintain_ratio'] = FALSE;
-				$config['quality'] = '60%';
+				$config['quality'] = '70%';
 				$config['width'] = 100;
 				$config['height'] = 100;
 				$config['new_image'] = './assets/images/' . $gbr['file_name'];

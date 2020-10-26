@@ -31,7 +31,7 @@ class Omah extends CI_Controller
         $data['caption_1'] = $home->home_caption_1;
         $data['caption_2'] = $home->home_caption_2;
         $data['bg_header'] = $home->home_bg_heading;
-        $data['bg_testimoni'] = $home->home_bg_testimonial;
+        // $data['bg_testimoni'] = $home->home_bg_testimonial;
         $data['testimonial'] = $this->db->get('tbl_testimonial');
         // $data['bg_gallery'] = $home->home_bg_gallery;
         $data['gallery'] = $this->db->get('tbl_gallery');

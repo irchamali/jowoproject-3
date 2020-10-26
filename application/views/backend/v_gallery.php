@@ -363,7 +363,7 @@
     <?php
     foreach ($data->result() as $row) :
     ?>
-        <!-- Modal -->
+        <!-- Modal Add-->
         <form id="add-row-form" action="<?php echo base_url() . 'backend/gallery/update' ?>" method="post" enctype="multipart/form-data">
             <div class="modal fade" id="ModalEdit<?php echo $row->gallery_id; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -456,7 +456,7 @@
             $('.dropify').dropify({
                 defaultFile: '',
                 messages: {
-                    default: 'Drag atau drop untuk memilih Photo',
+                    default: 'Drag atau drop untuk memilih Photo (wajib ukuran 200x300px)',
                     replace: 'Ganti',
                     remove: 'Hapus',
                     error: 'error'

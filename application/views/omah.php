@@ -210,7 +210,14 @@
                             <i class="fa fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">emailponpes@gmail.com</div>
+                                <div class="sub-title">darulabror.skj@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-whatsapp"></i>
+                            <div class="info">
+                                <div class="head">Whatsapp</div>
+                                <div class="sub-title">081236868776/085399877328</div>
                             </div>
                         </div>
                         <div class="row">
@@ -218,13 +225,6 @@
                             <div class="info">
                                 <div class="head">Instagram</div>
                                 <div class="sub-title">instagram.com/ponpesdarulabror</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fa fa-twitter"></i>
-                            <div class="info">
-                                <div class="head">Twitter</div>
-                                <div class="sub-title">twitter.com/ponpesdarulabror</div>
                             </div>
                         </div>
                         <!-- <div class="row">

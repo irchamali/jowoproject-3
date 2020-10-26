@@ -222,7 +222,7 @@
                             <p>Subscribers</p>
                         </a></li>
                     <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
-                            <p>Testimonials</p>
+                            <p>Pengurus</p>
                         </a></li>
                     <?php if ($this->session->userdata('access') == '1') : ?>
                         <li><a href="<?php echo site_url('backend/users'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span>

@@ -33,6 +33,8 @@ class Home extends CI_Controller
 		$data['bg_header'] = $home->home_bg_heading;
 		$data['bg_testimoni'] = $home->home_bg_testimonial;
 		$data['testimonial'] = $this->db->get('tbl_testimonial');
+		// $data['bg_gallery'] = $home->home_bg_galleryl;
+		$data['gallery'] = $this->db->get('tbl_gallery');
 		$site_info = $this->db->get('tbl_site', 1)->row();
 		$v['logo'] =  $site_info->site_logo_header;
 		$data['icon'] = $site_info->site_favicon;

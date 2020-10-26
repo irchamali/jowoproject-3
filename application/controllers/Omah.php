@@ -9,6 +9,7 @@ class Omah extends CI_Controller
         $this->load->model('Visitor_model', 'visitor_model');
         $this->load->model('Zome_model', 'zome_model');
         $this->load->model('Site_model', 'site_model');
+        // $this->load->model('Gallery_model', 'gallery_model');
         $this->visitor_model->count_visitor();
         $this->load->helper('text');
     }
@@ -32,6 +33,8 @@ class Omah extends CI_Controller
         $data['bg_header'] = $home->home_bg_heading;
         $data['bg_testimoni'] = $home->home_bg_testimonial;
         $data['testimonial'] = $this->db->get('tbl_testimonial');
+        // $data['bg_gallery'] = $home->home_bg_gallery;
+        $data['gallery'] = $this->db->get('tbl_gallery');
         $site_info = $this->db->get('tbl_site', 1)->row();
 
         $site_info = $this->db->get('tbl_site', 1)->row();

@@ -81,7 +81,7 @@
                 <div class="text-2"><span class="typing"></span></div>
                 <div class="text-3">Silahkan Mendaftar <span class="typing-3"></span></div>
                 <!-- <div class="text-1">Irham | Founder</div> -->
-                <a href="https://api.whatsapp.com/send?phone=6285708497317">DAFTAR</a>
+                <a href="<?= base_url('/contact'); ?>">DAFTAR</a>
             </div>
         </div>
     </section>
@@ -109,44 +109,40 @@
         <div class="max-width">
             <h2 class="title">Galeri Foto</h2>
             <div class="carousel owl-carousel">
-                <div class="card">
+                <?php foreach ($gallery->result() as $test) : ?>
+                    <div class="card">
+                        <div class="box">
+                            <img src="<?= base_url() . 'assets/images/' . $test->gallery_image; ?>" class="img" alt="" />
+                            <div class="text"><?php echo $test->gallery_name; ?></div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+                <!-- <div class="card">
                     <div class="box">
                         <img src="<?= base_url('theme/images/Galeri1.jpg'); ?>">
-                        <!-- <i class="fa fa-paint-brush"></i> -->
                         <div class="text">Harlah Pesantren</div>
-                        <!-- <p>Web Desain adalah istilah yang sering digunakan untuk menggambarkan bagaimana tampilan isi suatu website atau situs. Web yang kami bangun kami sesuaikan dengan kaidah dan kebutuhan customer secara personal maupun instansi.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="<?= base_url('theme/images/Galeri2.jpg'); ?>">
-                        <!-- <i class="fa fa-chart-line"></i> -->
-                        <!-- <i class="fa fa-code"></i> -->
                         <div class="text">Pawai Ta'aruf</div>
-                        <!-- <p>Advertising adalah salah satu bentuk komunikasi komersil maupun non komersil dengan tujuan agar khalayak memahami, mengikuti, atau mengambil tindakan tertentu. Web dikembangkan atas dasar interaksi sosial melalui sarana media website.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="<?= base_url('theme/images/Galeri3.jpg'); ?>">
-                        <!-- <i class="fa fa-code"></i> -->
                         <div class="text">Santunan Anak Yatim</div>
-                        <!-- <p>Desain Grafis adalah proses komunikasi menggunakan elemen visual yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan. Web yang dibuat tentu akan memperhatikan kesesuaian dan estetika yg disuguhkan.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="<?= base_url('theme/images/Galeri4.jpg'); ?>">
-                        <!-- <i class="fa fa-code"></i> -->
                         <div class="text">Musafakhah Santri</div>
-                        <!-- <p>Desain Grafis adalah proses komunikasi menggunakan elemen visual yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan. Web yang dibuat tentu akan memperhatikan kesesuaian dan estetika yg disuguhkan.</p> -->
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
-        <!-- <div class="text-center">
-            <a href="<?= base_url('/about'); ?>">Read More</a>
-        </div> -->
         </div>
     </section>
 
@@ -158,13 +154,16 @@
                 <div class="column left">
                     <div class="text">Berita satu.</div>
                     <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p>
-                    <a href="#">Read more</a>
+                    <!-- <a href="#">Read more</a> -->
                 </div>
                 <div class="column left">
                     <div class="text">Berita 2.</div>
                     <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p>
-                    <a href="#">Read more</a>
+
                 </div>
+            </div>
+            <div class="text-center">
+                <a href="<?= base_url('/blog'); ?>">Read More</a>
             </div>
         </div>
     </section>

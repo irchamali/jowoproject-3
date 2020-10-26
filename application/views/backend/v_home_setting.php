@@ -223,8 +223,11 @@
                     <li><a href="<?php echo site_url('backend/subscriber'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-users"></span>
                             <p>Subscribers</p>
                         </a></li>
-                    <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
-                            <p>Pengurus</p>
+                    <li class="active"><a href="<?php echo site_url('backend/gallery'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-like"></span>
+                            <p>Gallery</p>
+                        </a></li>
+                    <li><a href="<?php echo site_url('backend/testimonial'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-graduation"></span>
+                            <p>Teams</p>
                         </a></li>
                     <?php if ($this->session->userdata('access') == '1') : ?>
                         <li><a href="<?php echo site_url('backend/users'); ?>" class="waves-effect waves-button"><span class="menu-icon icon-user"></span>

@@ -81,7 +81,7 @@
                 <div class="text-2"><span class="typing"></span></div>
                 <div class="text-3">Silahkan Mendaftar <span class="typing-3"></span></div>
                 <!-- <div class="text-1">Irham | Founder</div> -->
-                <a href="<?= base_url('/contact'); ?>">DAFTAR</a>
+                <a href="https://forms.gle/M1wC98JY3fTSjBje8">DAFTAR</a>
             </div>
         </div>
     </section>
@@ -155,8 +155,6 @@
                     <div class="column left">
                         <div class="text"><?php echo $row->post_title; ?></div>
                         <p><?php echo $row->post_description; ?></p>
-                        <!-- <p>JowoKode memfasilitasi para dulur-dulur customer berdasarkan pada keahlian dan pengalaman pembuatan web secara kreatif. Teknologi yang digunakan dalam pengembangan sistem informasi berbentuk website seperti HTML, CSS, Javascript, PHP, dan MySQL. Pembuatan Web juga menawarkan kemudahan dengan CMS (Content management system) bagi yang berminat. JowoKode berkomitmen untuk melayani dengan sentuhan keramahan jawa.</p> -->
-                        <!-- <a href="#">Read more</a> -->
                     </div>
                 <?php endforeach; ?>
                 <!-- <div class="column left">

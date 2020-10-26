@@ -43,7 +43,7 @@ class Home_model extends CI_Model
 		$this->db->from('tbl_post');
 		$this->db->join('tbl_user', 'post_user_id=user_id', 'left');
 		$this->db->order_by('post_id', 'DESC');
-		$this->db->limit(6);
+		$this->db->limit(2);
 		$query = $this->db->get();
 		return $query;
 	}

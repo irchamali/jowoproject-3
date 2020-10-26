@@ -53,7 +53,7 @@ $b = $data->row_array();
                     </a>
                 </div>
                 <div class="logo-box">
-                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>BABAD</span></a>
+                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>DARUL</span></a>
                 </div><!-- Logo Box -->
                 <div class="topmenu-outer">
                     <div class="top-menu">

@@ -108,37 +108,45 @@
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">Galeri Foto</h2>
-            <div class="serv-content">
+            <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
+                        <img src="<?= base_url('theme/images/Galeri1.jpg'); ?>">
                         <!-- <i class="fa fa-paint-brush"></i> -->
-                        <div class="text">Logo</div>
+                        <div class="text">Harlah Pesantren</div>
                         <!-- <p>Web Desain adalah istilah yang sering digunakan untuk menggambarkan bagaimana tampilan isi suatu website atau situs. Web yang kami bangun kami sesuaikan dengan kaidah dan kebutuhan customer secara personal maupun instansi.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
+                        <img src="<?= base_url('theme/images/Galeri2.jpg'); ?>">
                         <!-- <i class="fa fa-chart-line"></i> -->
                         <!-- <i class="fa fa-code"></i> -->
-                        <div class="text">Advertising</div>
+                        <div class="text">Pawai Ta'aruf</div>
                         <!-- <p>Advertising adalah salah satu bentuk komunikasi komersil maupun non komersil dengan tujuan agar khalayak memahami, mengikuti, atau mengambil tindakan tertentu. Web dikembangkan atas dasar interaksi sosial melalui sarana media website.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="<?= base_url() . 'theme/images/' . $about_img; ?>">
+                        <img src="<?= base_url('theme/images/Galeri3.jpg'); ?>">
                         <!-- <i class="fa fa-code"></i> -->
-                        <div class="text">Graphical Design</div>
+                        <div class="text">Santunan Anak Yatim</div>
+                        <!-- <p>Desain Grafis adalah proses komunikasi menggunakan elemen visual yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan. Web yang dibuat tentu akan memperhatikan kesesuaian dan estetika yg disuguhkan.</p> -->
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="<?= base_url('theme/images/Galeri4.jpg'); ?>">
+                        <!-- <i class="fa fa-code"></i> -->
+                        <div class="text">Musafakhah Santri</div>
                         <!-- <p>Desain Grafis adalah proses komunikasi menggunakan elemen visual yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan. Web yang dibuat tentu akan memperhatikan kesesuaian dan estetika yg disuguhkan.</p> -->
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center">
+        <!-- <div class="text-center">
             <a href="<?= base_url('/about'); ?>">Read More</a>
-        </div>
+        </div> -->
         </div>
     </section>
 

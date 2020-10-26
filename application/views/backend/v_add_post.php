@@ -50,7 +50,7 @@
                     </a>
                 </div>
                 <div class="logo-box">
-                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>BABAD</span></a>
+                    <a href="<?php echo site_url('backend/dashboard'); ?>" class="logo-text"><span>DARUL</span></a>
                 </div><!-- Logo Box -->
                 <div class="search-button">
                     <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
